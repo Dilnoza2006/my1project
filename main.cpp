@@ -46,13 +46,13 @@ int main() {
     // cout << "second integer is " << b << endl;
     // return 0;
 
-    for (int i = 1; i <= 10; i++)
-        {
-        cout <<i<<setw(5);
-        cout <<setw(5)<< i*i<<endl;
+    string input;
+    cout << "Please enter a string" << endl;
+    cin >> input;
+    int width=50;
+    int padding=(width-input.length())/2;
+    cout<<setw(padding)<<input<<setw(padding)<<endl;
 
-
-    }
     return 0;
 }
 
