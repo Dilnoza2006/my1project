@@ -7,7 +7,7 @@ int main() {
     //cout << "your age:";
     //cin>> age;
     //cout<<"so, your age : "<<age<<endl;
-   // return 0;
+    // return 0;
 
     //problem1
     // string name;
@@ -147,7 +147,7 @@ int main() {
     // return 0;
 
 
-//problem8
+    //problem8
     // float amount1, ex_rate;
     // int amount2;
     // cout<<"enter the amount in USD";
@@ -158,7 +158,7 @@ int main() {
     // cout<<"the equivalent amount in UZS :"<< amount2 <<endl;
     // return 0;
 
-//problem9
+    //problem9
     // float rad;
     // float area
     // ;
@@ -169,14 +169,14 @@ int main() {
     // return 0;
 
     //problem10
-//     float rad , height, volume;
-//     cout<<"Enter the radius of a base the circle: ";
-//     cin>>rad;
-//     cout<<"Enter the height of the cylinder: ";
-//     cin>>height;
-//     volume = 3.14*rad*rad*height;
-//     cout<<"The volume of the circle with r="<<rad<<"and h="<<height<<": "<<volume<<endl;
-// return 0;
+    //     float rad , height, volume;
+    //     cout<<"Enter the radius of a base the circle: ";
+    //     cin>>rad;
+    //     cout<<"Enter the height of the cylinder: ";
+    //     cin>>height;
+    //     volume = 3.14*rad*rad*height;
+    //     cout<<"The volume of the circle with r="<<rad<<"and h="<<height<<": "<<volume<<endl;
+    // return 0;
 
     //problem12
     // int minutes, hours ,remaining_min ;
@@ -230,9 +230,9 @@ int main() {
     // gpa=(grade1*credit1+grade2*credit2+grade3*credit3+grade4*credit4+grade5*credit5)/(credit1+credit2+credit3+credit4+credit5);
     // cout << fixed << setprecision(2);
     // cout<<"The average GPA is:"<<gpa<<endl;
-   // return 0;
+    // return 0;
 
-   // problem17
+    // problem17
     // int price1, price2;
     // float inflation_rate;
     // cout<<" initial price :";
@@ -267,7 +267,7 @@ int main() {
     // cout<<"The simple interest is:"<<SI<<endl;
     // return 0;
 
-//problem20
+    //problem20
     // float principal_amount, interest_rate,amount,compound;
     // cout<<"principal:";
     // cin>>principal_amount;
@@ -324,19 +324,19 @@ int main() {
     // return 0;
 
     //problem4
-    // int a,b,c;
-    //cout<<"3 numbers"<<endl;
-    // cin>>a>>b>>c;
-    // if (a>b && a>c) {
-    //     cout<<a<<"is the largest";
-    // }
-    // else if (b>a && b>c) {
-    //     cout<<b<<"is the largest";
-    // }
-    // else  (c>a && c>b) ; {
-    //     cout<<c<<"is the largest";
-    // }
-    // return 0;
+    //  int a,b,c;
+    // cout<<"3 numbers"<<endl;
+    //  cin>>a>>b>>c;
+    //  if (a>=b && a>=c) {
+    //      cout<<a<<"is the largest";
+    //  }
+    //  else if ( b>=c) {
+    //      cout<<b<<"is the largest";
+    //  }
+    //  else   {
+    //      cout<<c<<"is the largest";
+    //  }
+    //  return 0;
 
     //problem5
     // int year;
@@ -393,7 +393,7 @@ int main() {
     // return 0;
 
     //roblem9
-    // string color, green, red, yellow;
+    // string color;
     // cout<<"enter the traffic light color:";
     // cin>>color;
     // if (color == "green") {
@@ -407,10 +407,55 @@ int main() {
     // }
     // return 0;
 
+    //problem9.1
+    char light;
+    cout << "Enter a character: ";
+    cin >> light;
+    switch (light) {
+        case 'g':
+            cout << "GO!" << endl;
+        break;
+        case 'r':
+            cout << "STOP!" << endl;
+        break;
+        case 'y':
+            cout << "GET READY!" << endl;
+        break;
+        default:
+            cout << "invalid input!" << endl;
+        return 0;
+    }
+
     //problem10
+    // int grade ;
+    // cout << "enter your grade:" << endl;
+    // cin >> grade;
+    // if (grade >= 90 && grade <= 100) {
+    //     cout << "A" << endl;
+    // }
+    // else if (grade >= 80 && grade <= 89) {
+    //     cout << "B" << endl;
+    // }
+    // else if (grade >= 70 && grade <= 79) {
+    //     cout << "C" << endl;
+    // }
+    //
+    // else if (grade >= 60 && grade <= 69) {
+    //     cout << "D" << endl;
+    // }
+    // else if (grade >= 0 && grade <= 59) {
+    //     cout << "F" << endl;
+    // }
+    // else {
+    //     cout << "ERROR" << endl;
+    // }
+    // return 0;
 
-
-
+    //problem11
+    // int a,b;
+    // cout<<"Enter the  numbers: ";
+    // cin>>a>>b;
+    // if (a%2==0){}
 
 }
 
